@@ -1,0 +1,56 @@
+<!-- Demonstrate the various form element and its attributes and create one simple registration form as per your requirement. -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Registration form</title>
+</head>
+<body>
+    <form action="">
+        <fieldset>
+            <legend>Registration form</legend>
+
+            <label for="Name">Name:</label>
+            <input type="text" name="name" id="name" placeholder="Enter your full name"><br><br>
+            
+            <label for="email-id">Mail id:</label>
+            <input type="email" name="mailid" id="email-id"><br><br>
+
+            <label for="mobile-number">Mobile Number:</label>
+            <select name="cc" id="countrycode">
+                <option value="91" selected>+91</option>
+                <option value="91">+1</option>
+            </select>
+            <input type="number" name="mono" id="mobile-number" maxlength="10"><br><br>
+
+            <label for="birthdate">Date of Birth:</label>
+            <input type="date" name="dob" id="birthdate"><br><br>
+
+            <label>Select your Hobby:</label>
+
+            <input type="checkbox" name="game" id="playinggames" value="g">
+            <label for="playinggames">Playing Games</label>
+            <input type="checkbox" name="book" id="books" value="b">
+            <label for="books">Reading Books</label>
+            <input type="checkbox" name="movie" id="movies" value="m">
+            <label for="movies">Watching movies</label><br><br>
+            
+            <label>Study:</label>
+            <input type="radio" name="study" id="school" value="School">
+            <label for="school">In School</label>
+            <input type="radio" name="study" id="ug" value="ug">
+            <label for="ug">Under Graduate</label>
+            <input type="radio" name="study" id="pg" value="pg">
+            <label for="pg">Post Graduate</label><br><br>
+
+            <label for="siblings">Siblings</label>
+            <input type="range" name="sib" id="siblings" min="0" max="10"><br><br>
+            
+            <button type="reset">Reset</button>
+            <input type="submit" value="Submit">
+        </fieldset>
+    </form>
+</body>
+</html>

@@ -1,0 +1,53 @@
+<!-- Write a form to collect details of a user such as name, address, radio button to choose subject of book he wants to buy, Dropdown to choose favorite author and comments for the last book he read. -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Intrest</title>
+</head>
+<body>
+    <form action="">
+        <fieldset>
+            <label for="Name">Name:</label>
+            <input type="text" name="name" id="name" placeholder="Enter your full name"><br><br>
+
+            <label for="address">Address:</label>
+            <textarea name="add" id="address" cols="20" rows="3"></textarea><br><br>
+            
+            <label for="subject">Subject of book you want to buy:</label>
+            
+            <input type="radio" name="sub" id="fantacy" value="fan">
+            <label for="fantacy">Fantasy</label>
+            <input type="radio" name="sub" id="horror" value="hor">
+            <label for="horror">Horror</label>
+            <input type="radio" name="sub" id="romance" value="rom">
+            <label for="romance">Romance</label>
+            <input type="radio" name="sub" id="fiction" value="rom">
+            <label for="fiction">Fiction</label>
+            <input type="radio" name="sub" id="mystery" value="mstry">
+            <label for="mystery">Mystery</label><br><br>
+
+            <label for="author">Choose your favorite author</label>
+            <select name="authors" id="author">'
+                <option value="ashwin">Ashwin Sanghi</option>
+                <option value="cb">Chetan Bhagat</option>
+                <option value="stking">Stephen King</option>
+                <option value="dk">Deepti Kapoor</option>
+                <option value="ng">Neil Gaiman</option>
+                <option value="jkr">JK Rowling</option>
+                <option value="nichs">Nicholas Sparks</option>
+                <option value="ac">Agatha Christie</option>
+                <option value="sl">Stieg Larsson</option>
+                <option value="niki">Nikita Singh</option>
+                <option value="pr">Preeti Shenoy</option>
+            </select><br><br>
+
+            <label for="comments">Comments:</label>
+            <textarea name="cmnt" id="comments" cols="50" rows="3" placeholder="comments for the last book you've read"></textarea><br><br>
+            
+            <input type="submit" value="Submit">
+        </fieldset>
+    </form>
+</body>
+</html>
